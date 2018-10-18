@@ -1,0 +1,5 @@
+Speeding up my python SVM training, using a highend VM instance on GCP
+
+- Didnt observe any significant speedups
+- Upon a quick investigation, it seems the python kernel runs as single thread, so not leveraging the multi cores
+- https://cloud.google.com/datalab/docs/how-to/machine-type
